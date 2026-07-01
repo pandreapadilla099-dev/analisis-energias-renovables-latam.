@@ -1,4 +1,4 @@
-# 📊 Análisis de la Producción de Energía Renovable en América Latina (2015-2022)
+# Análisis de la Producción de Energía Renovable en América Latina (2015-2022)
 
 Este repositorio contiene un proyecto de **Análisis Exploratorio de Datos (EDA)** y modelado estadístico descriptivo desarrollado para evaluar la evolución, correlación y capacidad per cápita de la transición energética en Sudamérica (Argentina, Brasil, Chile y Colombia). 
 
@@ -6,14 +6,14 @@ El proyecto fue desarrollado bajo la metodología de Ciencia de Datos en el prog
 
 ---
 
-## 📝 Introducción y Justificación
+## Introducción y Justificación
 Ante los desafíos globales del cambio climático y la necesidad de transición energética, América Latina se posiciona como una región estratégica debido a su vasta disponibilidad de recursos hídricos, solares y eólicos. 
 
 El objetivo principal de este análisis es evaluar los registros históricos de generación eléctrica en Gigavatios-hora (GWh) para identificar los liderazgos regionales, la velocidad de adopción de tecnologías limpias (solar y eólica) y el impacto demográfico en la demanda energética mediante coeficientes de correlación estadística.
 
 ---
 
-## 📑 Diccionario de Datos (Metadata)
+##  Diccionario de Datos (Metadata)
 Los datos combinan métricas de generación mensuales de fuentes energéticas de la base de datos de producción con variables macroeconómicas de población del **Banco Mundial**:
 
 * **PAÍS:** Nación sudamericana evaluada (Argentina, Brasil, Chile, Colombia).
@@ -24,7 +24,7 @@ Los datos combinan métricas de generación mensuales de fuentes energéticas de
 
 ---
 
-## 🎯 Hallazgos y Respuestas a Preguntas de Negocio
+##  Hallazgos y Respuestas a Preguntas de Negocio
 
 ### 1. Evolución Temporal y Predominancia de Fuentes
 La **energía hidroeléctrica (*Hydro*)** continúa siendo el pilar fundamental y la fuente con mayor volumen de generación en toda la región. 
@@ -48,7 +48,7 @@ El análisis estadístico de correlación demostró que el crecimiento de la inf
 
 ---
 
-## 🛠️ Tecnologías y Herramientas Utilizadas
+##  Tecnologías y Herramientas Utilizadas
 * **Lenguaje:** Python 3 (Google Colab Environment).
 * **Librerías de Datos:** `pandas` para limpieza, filtrado y uniones de datasets; `numpy` para soporte matemático.
 * **Librerías de Visualización:** `matplotlib.pyplot` y `seaborn` para la creación de gráficos de líneas, barras apiladas y matrices de correlación.
